@@ -1,0 +1,68 @@
+@font-face  {
+    font-family: myFont;
+    src: url(InstrumentSerif-Regular.ttf);/*google font since im scared to get copyrighted*/
+}
+.myfont1{ /*to make some text into this font*/
+    font-family: myFont;
+    font-size: 100px;
+    letter-spacing: -2px;
+    text-align: center;
+}
+
+body{ /*for the main body*/
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*the font i use all the time*/
+    padding: 10px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.side{ /*for the navbar*/
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    background-color: white;
+    overflow-x: hidden;
+    padding: 20px;
+    border-right: 1px solid black;
+}
+
+a{ /*gfor the links*/
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+a:hover{
+    color: #BC4C38; /*so when you put your mouse over the link it turns red*/
+}
+
+.border{ /*i put this just in case but i forgot if i actually used it*/
+    border: 1px solid black;
+}
+
+.content{ /*for the main content*/
+    margin-left: 250px;
+}
+
+.scroll { /*for the gallery, makes it so that you can scroll images from left to right and vice versa*/
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+footer{ /*for the footer*/
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+}
+
+table{ /*for the formatting*/
+    border: none;
+    padding: 20px;
+}
+
+.forheaders{ /*to make some tect centered*/
+    text-align: center;
+}
